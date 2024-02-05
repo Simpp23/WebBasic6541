@@ -1,0 +1,31 @@
+/* div { 
+    width: 100px;
+    height: 100px;
+    border: 3px solid #71e471;
+    background-color: #3cd8f3;
+}*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ex1 {
+    width: 500px;
+    border: 2px solid greenyellow;
+}
+
+.ex2 {
+    mex-width: 500px;
+    border: 2px solid greenyellow;
+}
+
+/*
+  css - Posittion
+  -static
+  -relative
+  -fixed
+  -absoluts
+  -sticky
+
+*/
+  
