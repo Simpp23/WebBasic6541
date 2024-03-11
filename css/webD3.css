@@ -16,7 +16,7 @@
 
 /*-----------------------Start header ----------------------------*/
 header {
-    background-color: #6B6C6C;
+    background-color: #756AB6;
     
     
 }
@@ -211,8 +211,8 @@ justify-content: space-between;
 
 /* -----------------------start sention members------------ */
 
-.members{
-    background-color: #00ffff;
+.membersss{
+    background-color: #E0CBFF;
     padding: 50px 50px;
 }
 
@@ -257,3 +257,104 @@ th {
 td {
 
 }
+/* -----------------------End sention members------------ */
+
+
+/* -----------------------start Contact Section------------ */
+.contactt {
+    background-color: #ffffff;
+    color: #000000;
+    
+    
+
+}
+
+.heading-textt {
+    margin: auto;
+    text-align: center;
+    
+    
+}
+
+.paragraph {
+    text-align: center;
+}
+
+
+.lable-input-aligment {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-form-name {
+    border-radius: 5px;
+    font-size: 14px;
+    width: 476px;
+    height: 30px;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+    border: #ffffff;
+  }
+  .input-form-email {
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0px;
+    width: 538px;
+    border: #ffffff;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+    height: 30px;
+  }
+  .input-form-subject {
+    font-size: 14px;
+    border: #ffffff;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 1110px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .text-paragraph {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1F0376;
+  }
+  .input-form-message {
+    resize: none;
+    font-size: 14px;
+    border: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.1);
+    width: 1110px;
+    height: 190px;
+  }
+  .form-aligment {
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+  }
+  
+  
+  .send-message {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .send-alignment {
+    background-color: #3B9882;
+    padding: 4px 20px;
+    border-radius: 30px;
+    text-align: center;
+    width: 15%;
+    gap: 90px;
+    margin: 20px auto;
+  }
+  /* -----------------------End Contact Section------------ */
+
+  /*Footer Section*/
+.footer-section {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: white;
+  background-color: #756AB6;
+  padding: 20px;
+}
+/*End Footer Section*/

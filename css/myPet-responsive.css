@@ -1,0 +1,267 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1D35AF;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+
+    /* background-color: aquamarine; */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li {
+    margin-right: 1.85rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.logo img {
+    margin-right: 0.5rem;
+}
+
+/* ---------------responsive Navbar------------------- */
+@media screen and (max-width:480px) {
+    nav {
+
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    
+}
+}
+
+/* end header */
+
+/* myPet-content */
+
+.mypet-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.box {
+    /* background-color: #C2D5F5; */
+    margin: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
+    
+
+
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-content{
+    padding: 15px;
+}
+
+/* ---------------responsive Mypet------------------- */
+
+@media screen and (max-width:768px) {
+    .mypet-content{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .mypet-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
+
+
+/* end myPet-content */
+
+/* hero section */
+.hero {
+    background-image: url('https://thecatsite.com/c/wp-content/uploads/2011/11/persian-cats-1.jpg');
+    width: 100%;
+    height: 500px;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-hero {
+    margin: 0;
+    font-size: 60px;
+    color: #bb23fc;
+    /* background: linear-gradient(95deg rgb(136, 0, 255) 60%,rgb(19, 249, 3) 100%);
+    -webkit-background-clip: text;
+    
+    -webkit-text-fill-color: transparent; */
+}
+/* end hero section */
+/* social */
+
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 80%;
+    
+    
+
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+}
+
+@media screen and (max-width:768px) {
+    .social{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+
+}
+
+@media screen and (max-width:480px) {
+    .social{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+        background-color: rgb(255, 255, 255);
+        
+        margin: auto;
+        width: 80%;
+    }
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4{
+        /* display: grid; */
+        /* grid-template-columns: repeat(4, 1fr); */
+
+    }
+
+}
+/* .social {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    margin: auto;
+    width: 80%;
+    
+
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fafafa;
+    text-align: center;
+    justify-content: center;
+    
+    
+    
+} */
+
+.img-social {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-direction: column;
+    margin: auto ;
+    
+    
+    
+
+}
+
+/* @media screen and (max-width:768px) and (min-width:480px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(,1fr);
+    }
+    .circle1,
+    .circle2,
+    .circle3,
+    .circle4{
+        
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+} */
+
+
+
+
+
+/* footer */
+
+footer {
+    background-color: #1D35AF;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* end footer */
