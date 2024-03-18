@@ -21,7 +21,42 @@ input {
 }
 
 .bg-mynav {
-    background-color: rgb(127, 111, 235);
+    background-color: rgb(199, 85, 85);
     
     
+}
+
+.my-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    /* text-align: center; */
+
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(176, 176, 176);
+
+}
+
+.membersss{
+    background-color: #E0CBFF;
+    padding: 50px 50px;
+}
+
+.members-text {
+    width: 1100px;
+    margin: auto;
+
+}
+
+.members-box {
+    width: 1100px;
+    margin: auto;
+
+    background-color: #fafafa;
+
+    padding: 1px 40px 40px;
+    box-shadow: 0px 0px 5px 5px #888888;
+    border-radius: 5px;
+
 }
